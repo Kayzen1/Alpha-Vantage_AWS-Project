@@ -4,6 +4,7 @@ import boto3
 import os
 from datetime import datetime
 
+# codebuild success
 def lambda_handler(event, context):
     # Alpha Vantage API parameters
     api_key = os.environ['ALPHA_VANTAGE_API_KEY']  # API key stored as an environment variable
